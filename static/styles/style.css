@@ -9,6 +9,7 @@ html,body{
 }
 body{
     background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
 }
 img{
     max-width: 100%;
@@ -20,18 +21,57 @@ img{
     margin: 0px auto;
     border: 1px solid red;
 }
-.bgMain{
+
+.bg-main{
     background-color: #8edde4;
 }
-.bgSecond{
+.bg-second{
     background-color: #fff3cb;
 }
-.wrapper header{
 
+.w-30{
+    width: 30%;
+}
+.w-70{
+    width: 70%;
+}
+.wrapper header{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
 }
 .wrapper main{
 
 }
 .wrapper footer{
 
+}
+.header-left{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.header-right{
+    text-align: center;
+}
+
+.header-right h2{
+    font-size: 36px;
+    font-weight: 700;
+    padding: 36px 0px;
+}
+.header-right p{
+    font-size: 28;
+    font-weight: 600;
+    padding: 12px 0px;
+}
+
+.header-logo{
+    width: 80%;
+    border-radius: 50%;
+    border: 3px solid #fff3cb;
+    position: absolute;
+}
+.header-logo img{
+    border-radius: 50%;
 }
